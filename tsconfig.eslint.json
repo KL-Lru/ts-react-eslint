@@ -1,0 +1,33 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    /* Linting */
+
+    // Not allowing unreachable code
+    "allowUnreachableCode": false,
+
+    // Not allowing unused labels
+    "allowUnusedLabels": false,
+
+    // Not allowing fallthrough cases in switch
+    "noFallthroughCasesInSwitch": true,
+    
+    // Not allowing implicit override
+    "noImplicitOverride": true,
+
+    // Not allowing implicit undefined return
+    "noImplicitReturns": true,
+
+    // Not allowing indexed access to property with a string
+    "noPropertyAccessFromIndexSignature": true,
+
+    // Not allowing unchecked access to indexed members
+    "noUncheckedIndexedAccess": true,
+
+    // Not allowing unused locals
+    "noUnusedLocals": true,
+
+    // Not allowing unused parameters
+    "noUnusedParameters": true,
+  },
+}

@@ -1,0 +1,4 @@
+# ignore node_modules and output directories
+node_modules/
+dist/
+lib/

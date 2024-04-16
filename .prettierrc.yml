@@ -1,0 +1,33 @@
+# width limited to 100 characters
+printWidth: 100
+
+# 2 spaces for indentation
+tabWidth: 2
+
+# use spaces instead of tabs
+useTabs: false
+
+# end of line is LF (NOT CRLF)
+endOfLine: lf
+
+# semicolons at the end of statements
+semi: true
+
+# trailing commas always
+trailingComma: all
+
+# use single quotes
+singleQuote: true
+jsxSingleQuote: true
+
+# spaces between brackets
+bracketSpacing: true
+
+# bracket close on the next line
+bracketSameLine: false
+
+# arrow function parens always
+arrowParens: always
+
+# parser for typescript
+parser: typescript
