@@ -5,4 +5,7 @@ export const sample = () => {
   const y = 2;
 
   return x + y;
+
+  const z = 3;
+  return z;
 };

@@ -1,15 +1,11 @@
 root: true
 parser: "@typescript-eslint/parser"
-parserOptions:
-  project: tsconfig.eslint.json
 settings:
   react:
     version: detect
 plugins:
   # Add React rules
   - react
-  # Add Prettier rules
-  - prettier
   # Add TypeScript rules
   - "@typescript-eslint"
 extends:
@@ -22,4 +18,4 @@ extends:
   # Disable rules that conflict jsx-runtime (from React 17)
   - plugin:react/jsx-runtime
   # Respect rules with Prettier
-  - plugin:prettier/recommended
+  - prettier
